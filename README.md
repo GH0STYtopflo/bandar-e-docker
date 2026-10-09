@@ -37,7 +37,7 @@ Unlike traditional passive courses or text-heavy documentation, Docker Harbor is
   cd bandar-e-docker
 ```
 
-2. **Build and run the container**
+2. **Build an image and run a container**
   ```bash
   docker build -t bandar-e-docker .
   docker run -d --name BD --rm -p 5173:5173 bandar-e-docker
